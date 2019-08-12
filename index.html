@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'
+        integrity='sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay' rel='stylesheet' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test BEM</title>
+</head>
+
+<body>
+    <header class="menu-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2">
+                    <img src="img/logo.png" alt="Логотип" class="logo">
+                </div>
+                <div class="col-xl-8 ml-auto align-self-center">
+                    <nav>
+                        <ul class="menu d-flex justify-content-end">
+                            <li class="menu__item"><a href="#about">ПОЧЕМУ МЫ</a></li>
+                            <li class="menu__item"><a href="#team">ОТЗЫВЫ</a></li>
+                            <li class="menu__item"><a href="#contact">КОНТАКТЫ</a></li>
+                            <li class="menu__item"><a href="#footer">ЗАКАЗАТЬ ЗВОНОК</a></li>
+                            <li class="menu__item"><i class="fas fa-search"></i></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <h1 class="header__title">Экшен-камеры по самым выгодным<br>ценам в нашем магазине</h1>
+                    <p class="header__text">Акция! До конца месяца - бесплатная доставка по Москве!</p>
+                    <button class="button button_full">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <h2 class="about__title">Важнейшие характеристики экшн-камеры</h2>
+                    <p class="about__text">Какие существуют важнейшие характеристики экшн-камеры</p>
+                    <div class="row justify-content-end">
+                        <div class="col-xl-7">
+                            <ul>
+                                <li class="about__option">Время работы от аккумулятора</li>
+                            </ul>
+                            <p class="about__option">Большинство беспроводных экшн-камер может работать автономно до 2,5
+                                часов. Некоторые современные модели работают до 4 часов без перезарядки.
+                                Блок питания экшн-камер оборудуется литий-ионными многоразовыми перезаряжаемыми
+                                аккумуляторами.
+                                Почти всегда предусмотрена возможность использовать пальчиковые батарейки, а также
+                                зарядку от ноутбука или прикуривателя автомобиля.
+                            </p>
+                            <ul>
+                                <li class="about__option">Разрешающая способность экшн-камер</li>
+                                <ul>
+                        </div>
+                        <div class="col-xl-5">
+                            <img src="img/cam.png" alt="">
+                        </div>
+                        <div>
+                            <p class="about__option">Существуют различные варианты разрешения цифровых экшн-камер. Более
+                                ранние модели имеют hd разрешение 720*480 px.
+                                Экшн-камеры нового поколения обладают full hd разрешением 1920-1080 px. На некоторых
+                                моделях предусмотрен выбор разрешения видеосъемки.
+                                Угол обзора у экшн-камеры обычно не превышает 135 градусов, при этом угол захвата
+                                достаточно широкий.
+                                Автоматическое наложение текущих времени и даты на картинку позволяет в дальнейшем
+                                ориентироваться в отснятом материале.</p>
+                            <ul>
+                                <li class="about__option">Четкость видеосъемки при тряске экшн камеры</li>
+                            </ul>
+                            <p class="about__option">Яркие сюжеты получаются при содействии встроенной оптики.
+                                Поворотный механизм линзы объектива способствует выравниванию горизонта съемки
+                                благодаря возможности вращаться на 180 градусов вокруг оси, что обеспечивает гладкую
+                                картинку при тряске или сильном наклоне камеры.
+                                Ровная запись в условиях любой освещенности достигается функцией автоматической
+                                стабилизации изображения, предусмотренной в 2-5 мегапиксельном сенсоре.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <h2 class="about__title">Преимущества нашего магазина</h2>
+                    <p class="about__text">Почему выбирают наш магазин</p>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-xl-3">
+                    <img src="img/1.png" alt="">
+                    <h3 class="about_h3">Большой выбор</h3>
+                </div>
+                <div class="col-xl-3">
+                    <img src="img/2.png" alt="">
+                    <h3 class="about_h3">Доступные цены</h3>
+                </div>
+                <div class="col-xl-3">
+                    <img src="img/3.png" alt="">
+                    <h3 class="about_h3">Доставка по России</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <h2 class="about__title">Лучшие экшн-камеры, которые Вы можете приобрести у нас</h2>
+                    <ul>
+                        <li class="about__option">GoPro HERO5 Black</li>
+                    </ul>
+                    <p class="about__option">Впервые за долгое время камера не нуждается в дополнительном защитном боксе
+                        и способна без него погружаться на глубину до 10 метров.
+                        Особенно гордятся в компании наличием стабилизатора изображения при съёмке видео. Дополнительным
+                        бонусом GoPro можно назвать фирменные приложения Capture и Quick.
+                        С их помощью вы сможете просматривать, записывать и монтировать собственные ролики, а затем
+                        делиться ими со всем миром.
+                        Также доступна бесплатная программа видеомонтажа для настольного компьютера. Мы крайне
+                        рекомендуем GoPro HERO5 к покупке и единственное, что может остановить — это не самая «вкусная»
+                        цена.</p>
+                    <ul>
+                        <li class="about__option">SJCAM SJ6 Legend</li>
+                    </ul>
+                    <p class="about__option">Поддерживается подключение внешнего микрофона для улучшения качества
+                        записываемого звука. Для стабилизации изображения в
+                        SJCAM SJ6 Legend предусмотрен гиро-сенсор. Управлять камерой можно с помощью сенсорного
+                        ЖК-экрана размером 2 дюйма или через модули Wi-Fi и Bluetooth.
+                        Чтобы задействовать весь потенциал возможностей беспроводного соединения, доступно приложение
+                        SJCAM ZONE. Сам корпус камеры от непогоды не защищён,
+                        но в комплекте идёт защитный водонепроницаемый бокс. Неплохое решение от китайских
+                        производителей!</p>
+                    <ul>
+                        <li class="about__option">Sony FDR-X3000R</li>
+                    </ul>
+                    <p class="about__option">Оптическая стабилизация, отлично зарекомендовавшая себя в традиционных
+                        видеокамерах, сенсор 8,2 мегапикселя с технологией обратной засветки,
+                        светосильный f/2.8 объектив ZEISS® Tessar способны дать самую лучшую картинку в своем классе.
+                        Максимальное поддерживаемое разрешение составляет 4K.
+                        В Full HD разрешении Sony FDR-X3000R записывает видео со скоростью 120 к/c для создания эффекта
+                        замедления времени</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <h2 class="about__title">Большой выбор экшн-камер, доступных для заказа</h2>
+                    <p class="about__text">В нашем магазине представлено огромное количество экшн-камер по низким ценам!
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="our-card">
+                        <img class="icon" src="img/ico1.png" alt="" class="img-fluid">
+                        <h3 class="about_h3">"Экшн-камера</h3>
+                        <p class="about__text">Удобная в использовании черная экшн-видеокамера подойдет как для обычных
+                            прогулок, так и для занятий спортом и экстремальных приключений.
+                            Камеру можно надежно закрепить на велосипеде, доске для серфинга и на руке пользователя.
+                            Специальный бокс дает возможность использовать камеру под водой</p>
+                        <p class="product__price">9999</p>
+                        <button class="button_full">Заказать товар</button>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="our-card">
+                        <img class="icon" src="img/ico1.png" alt="" class="img-fluid">
+                        <h3 class="about_h3">"Экшн-камера</h3>
+                        <p class="about__text">Удобная в использовании черная экшн-видеокамера подойдет как для обычных
+                            прогулок, так и для занятий спортом и экстремальных приключений.
+                            Камеру можно надежно закрепить на велосипеде, доске для серфинга и на руке пользователя.
+                            Специальный бокс дает возможность использовать камеру под водой</p>
+                        <p class="product__price">15000</p>
+                        <button class="button_full">Заказать товар</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <h2 class="about__title">Отзывы наших клиентов</h2>
+                    <p class="about__text">Что говорят о нас наши клиенты</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-4">
+                    <img src="img/photo1.png" alt="">
+                    <h4>Игорь Александров</h4>
+                    <p>Качество съемки, сборки , и цена по сравнению с Go Pro, и другими брендами! У меня уже 2 камеры:
+                        одна с вайфаем, а другая без.
+                        Снимал в аквабоксе, в море и в бассейне, все супер! Первую камеру покупал для автомобиля и
+                        мотоцикла, так как она универсальная и имеет аккумулятор достаточной емкости.
+                        Качество съемки отличное, номера читаются, много настроек и креплений, ставил ее и на велосипед.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <h2 class="about__title">Другие характеристики экшн-камер</h2>
+                    <p class="about__text">Какие существуют важнейшие характеристики экшн-камеры</p>
+                </div>
+            </div>
+            <div class="row left">
+                <div class="col-xl-6">
+                    <img class="photo" src="img/4.png" alt="">
+                </div>
+                <div class="col-xl-6">
+                    <div class="blog">
+                        <ul>
+                            <li class="about__option">Количество кадров в секунду (FPS)</li>
+                        </ul>
+                        <p class="about__option">Этот параметр очень важен для комфортного просмотра динамичных сюжетов.
+                            При малой частоте кадров видеоролики могут смотреться «дёрганно» на экране телевизора или
+                            монитора. Чем больше кадров в секунду сделает камера, тем плавнее окажется картинка. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row right">
+                <div class="col-xl-6">
+                    <img class="photo" src="img/5.png" alt="">
+                </div>
+                <div class="col-xl-6">
+                    <div class="blog">
+                        <ul>
+                            <li class="about__option">Количество кадров в секунду (FPS)</li>
+                        </ul>
+                        <p class="about__option">Этот параметр очень важен для комфортного просмотра динамичных сюжетов.
+                            При малой частоте кадров видеоролики могут смотреться «дёрганно» на экране телевизора или
+                            монитора. Чем больше кадров в секунду сделает камера, тем плавнее окажется картинка. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact"> 
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <h2 class="about__title">Контактная информация</h2>
+                    <p class="about__text">Чебоксары, школьный проезд 1, e-mail: Test@yandex.ru, телефон: 8 800 300 06
+                        00</p>
+                </div>
+                <div class="col-xl-7">
+                    <script type="text/javascript" charset="utf-8" async
+                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A345776027e856bda1d89328f537bdb95d0d2ed30aa3395725e8d7505a3c38676&amp;width=640&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
+                    </br>
+
+                </div>
+                <div class="col-xl-5">
+                    <p class="about__option">Контактная информация:
+                        Чебоксары, школьный проезд 1.
+                        E-mail: Test@yandex.ru
+                        Телефон: 8 800 300 06 00 отдела продаж
+                        Телефон: 8 800 340 06 00 отдела сбыта
+                        Контактное лицо: Степанов В.И.
+                        Присоединяйтесь к нам в социальных сетях!</p>
+                    <div class="icons">
+                        <a href="">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-square fa-srack-2x"></i>
+                                <i class="fab fa-vk fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <a href="">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-square fa-srack-2x"></i>
+                                <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <a href="">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-square fa-srack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                        <a href="">
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-square fa-srack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-xl-8">
+                    <h2 class="about__title"> Остались вопросы?</h2>
+                    <p class="about__text">Оставьте заявку на сайте прямо сейчас</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-3">
+                    <div class="circle"><i class="fas fa-map-marker-alt"></i></div>
+                    <p>Чебоксары, школьный проезд 1</p>
+                </div>
+                <div class="col-xl-3">
+                    <div class="circle"><i class="fas fa-phone fa-rotate-90"></i></div>
+                    <p>8 800 300 06 00</p>
+                </div>
+                <div class="col-xl-3">
+                    <div class="circle"><i class="fas fa-envelope"></i></div>
+                    <p>Test@yandex.ru</p>
+                </div>
+            </div>
+            <div class="row justify-content-center form">
+                <div class="col-xl-5"><input type="text" placeholder="Введите Имя"></div>
+                <div class="col-xl-5"><input type="email" placeholder="Введите E-mail"></div>
+                <div class="col-xl-10"> <textarea name="" id="" cols="30" rows="10"
+                        placeholder="Введите сообщение"></textarea></div>
+                <div class="col-xl-2 offset-xl-8"><button>Отправить</button></div>
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+        </div>
+    </footer>
+
+    <footer class="rules">All rights Reserved © 2019</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    </body>
+
+</html>
